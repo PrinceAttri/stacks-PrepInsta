@@ -11,7 +11,7 @@ class Stack {
         Stack(int size) {
             top = -1;
             max = size;
-            arr = new int [max]; //dynamic memory allocation of a which is equal to the value of max
+            arr = new int [max]; //dynamic memory allocation of arr which is equal to the value of max
         }
         bool push(int x);
         int pop();
