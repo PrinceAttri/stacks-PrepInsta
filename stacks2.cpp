@@ -38,7 +38,7 @@ void display(int stack[], int top) {
         cout << "Stack is empty!" << endl;
         return;
     }
-    for(int i = top; i>=0; i++) {
+    for(int i = top; i>=0; i--) {
         cout << stack[i] << " " << endl;
     }
 }
